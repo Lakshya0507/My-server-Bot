@@ -7,6 +7,7 @@ const armorManager = require('mineflayer-armor-manager')
 const mc = require('minecraft-protocol');
 const AutoAuth = require('mineflayer-auto-auth');
 const app = express();
+const keep_alive.js = require('./keep_alive.js')
 
 
 app.use(express.json());
